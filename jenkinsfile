@@ -25,7 +25,7 @@ pipeline {
            stage('afficher texte') 
             {
                 steps {
-                    echo 'Jenkins is notified'
+                    echo 'Jenkins is well notified'
                 }
             }
         }
