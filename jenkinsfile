@@ -22,11 +22,5 @@ pipeline {
                     sh 'java Test '
                 }
             }
-           stage('afficher texte') 
-            {
-                steps {
-                    echo 'Jenkins is well notified'
-                }
-            }
         }
     }
