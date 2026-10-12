@@ -22,7 +22,7 @@ pipeline {
                     sh 'java Test '
                 }
             }
-            stage('display message') 
+            stage('test message') 
             {
                 steps {
                     echo 'Hello from github'
